@@ -15,7 +15,7 @@ jobs:
       - name: 打包
         run: |
           pip install pyinstaller
-          pyinstall --onefile ./循环小数转分数.py
+          pyinstaller --onefile ./循环小数转分数.py
       - name: 上传
         uses: actions/upload-artifact@v4
         with:
