@@ -1,5 +1,5 @@
 name: 打包
-on: push
+on: workflow-dispatch
 
 jobs:
   job:
