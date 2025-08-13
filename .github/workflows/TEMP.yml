@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: 程序
-          path: ./dist
+          path: dist/循环小数转分数
